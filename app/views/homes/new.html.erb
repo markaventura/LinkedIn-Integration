@@ -1,0 +1,4 @@
+<%= form_for @home, :html => { :multipart => true } do |savedoc| %>
+	<%= savedoc.file_field :mydocument %>
+	<%= savedoc.submit "Submit" %>
+<% end %>
